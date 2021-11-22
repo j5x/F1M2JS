@@ -8,6 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head> 
 <body>
-    <h1>Museum Online JavaScript</h1>
+    <h1 id="kopje">Museum Online JavaScript</h1>
+    <p id="mkBlauw">Maak achtergrond blauw</p>
+
+    <script>
+        const kopje = document.getElementById("kopje");
+        const mkBlauw = document.body.style.backgroundColor = "blue"
+
+        kopje.style.backgroundColor = "red"
+        
+        function chBackcolor(color) {
+            document.body.style.background = color;
+}
+
+    </script>
 </body>
 </html>
